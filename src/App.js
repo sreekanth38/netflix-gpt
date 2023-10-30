@@ -1,11 +1,6 @@
-import "./App.css";
-
+import { Body } from "./components/Body";
 function App() {
-  return (
-    <div className="App">
-      <div className="text--3xl font-bold text-green-400">Namasthe React</div>
-    </div>
-  );
+  return <Body></Body>;
 }
 
 export default App;
